@@ -29,7 +29,7 @@ public class FXMLController {
 
     @FXML
     void doCalcolcaAnagrammi(ActionEvent event) {
-    	String parola = this.txtInsert.getText();
+    	String parola = this.txtInsert.getText().toLowerCase();
     	List<String> corrette = new ArrayList<String>();
     	List<String> errate = new ArrayList<String>();
     	List<String> totale = this.model.anagrammi(parola);
