@@ -1,8 +1,6 @@
 package it.polito.tdp.model;
 
-import java.util.LinkedList;
-import java.util.List;
-
+import java.util.*;
 import it.polito.tdp.DAO.AnagrammaDAO;
 
 public class Model {
