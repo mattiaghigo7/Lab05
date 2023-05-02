@@ -8,7 +8,7 @@ public class Model {
 	private AnagrammaDAO anagrammaDAO;
 	
 	public Model() {
-		this.anagrammaDAO = new  AnagrammaDAO();
+		this.anagrammaDAO = new AnagrammaDAO();
 	}
 	
 	public boolean isCorrect(String anagramma) {
